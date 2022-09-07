@@ -1,0 +1,17 @@
+package maths;
+class demo
+{
+	int cid;
+	String cname;
+	void get1()
+	DataInputStream dis=new DataInputStream
+}
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

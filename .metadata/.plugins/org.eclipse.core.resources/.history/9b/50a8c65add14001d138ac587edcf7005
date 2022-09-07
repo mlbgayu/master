@@ -1,0 +1,15 @@
+package com.gayu;
+
+public class Bhavya {
+
+	public Bhavya() {
+		// TODO Auto-generated constructor stub
+		System.out.println("Hello World Gayathri!.");
+	}
+	
+	public static void main (String args[]) {
+		Bhavya a = new Bhavya();
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package codeforce.assignments;
+
+public class Addition {
+
+	public Addition() {
+		// TODO Auto-generated constructor stub
+	}
+public static void main (String[]args)	{
+	int a=450;
+	int b=540;
+	System.out.print(a+b);
+}
+
+}

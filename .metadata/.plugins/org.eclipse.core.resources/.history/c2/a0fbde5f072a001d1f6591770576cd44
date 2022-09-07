@@ -1,0 +1,9 @@
+package com.gayu.javatraining.samples;
+
+public class HelloWorld {
+
+	public HelloWorld() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

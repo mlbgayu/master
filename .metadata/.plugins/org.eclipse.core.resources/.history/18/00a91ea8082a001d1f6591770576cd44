@@ -1,0 +1,14 @@
+package com.gayu.javatraining;
+
+public class Samples {
+
+	public Samples() {
+		
+	}
+
+	public static void main(String arg[]) {
+		System.out.println("Hello Gayathri");
+
+	}
+
+}

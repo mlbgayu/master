@@ -15,6 +15,7 @@ public class Arithmatic_Exampl1 {
 		System.out.println("Increment ="+(++a));
 		System.out.println("Decrement ="+(b--));
 		System.out.println("Decrement ="+(--b));
+		System.out.println("Gayathri");
 		
 	}	
 

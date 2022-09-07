@@ -1,0 +1,33 @@
+https://github.com/mlbgayu/master.git
+
+
+create a new repository on the command line
+------------------------------------------------
+ 
+ 
+cd  C:\Users\mlbga\eclipse-workspace\<PROJECT_NAME>
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mlbgayu/master.git
+git push -u origin main
+
+
+
+Update the existing Project 
+----------------------------
+
+git status
+git add <MODIFIED FILE>
+git commit -m "first commit"
+git push -u origin main
+
+…or push an existing repository from the command line
+--------------------------------------------------------
+
+git remote add origin https://github.com/mlbgayu/master.git
+git branch -M main
+git push -u origin main
+
+

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;dev-codebase-assignments&apos;" deleteContents="false" description="Delete resource &apos;dev-codebase-assignments&apos;" element1="/dev-codebase-assignments" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1660671617812"/>
-</session>

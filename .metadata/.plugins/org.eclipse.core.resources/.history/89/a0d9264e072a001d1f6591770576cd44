@@ -1,9 +1,0 @@
-package com.gayu.javatraining.class1;
-
-public class FirstJava {
-
-	public FirstJava() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

@@ -17,7 +17,7 @@ public class IfState {
 		}
 		else {
 		  
-			System.out.println("Fail");
+			System.out.println("Failed");
 			
 		}
 	}

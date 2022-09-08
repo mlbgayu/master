@@ -25,7 +25,7 @@ public class IfSwitch {
 		System.out.println("june"+year);
 		break;
 		default:
-			System.out.println("");
+			System.out.println("Default");
 			break;
 		
 	}

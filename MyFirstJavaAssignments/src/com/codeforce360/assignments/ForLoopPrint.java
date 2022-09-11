@@ -1,6 +1,6 @@
 package com.codeforce360.assignments;
 
-public class TestQuestion1 {
+public class ForLoopPrint {
 
 	public static void main(String[] args) {
 

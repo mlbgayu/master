@@ -2,7 +2,9 @@ package com.codeforce360.assignments;
 
 import java.util.Scanner;
 
-public class TestQuestion2 {
+/*This class finds even or add number*/
+
+public class FindEvenOdd {
 
 	public static void main(String[] args) {
 		for(int i=0;i<1;i++) {

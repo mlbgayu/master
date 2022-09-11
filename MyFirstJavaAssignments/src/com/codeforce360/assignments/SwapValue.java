@@ -1,6 +1,6 @@
 package com.codeforce360.assignments;
 
-public class TestQuestion4 {
+public class SwapValue {
 
 	public static void main(String[] args) {
 		int a=100, b=200;

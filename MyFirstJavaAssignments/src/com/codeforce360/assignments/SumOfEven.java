@@ -2,7 +2,7 @@ package com.codeforce360.assignments;
 
 import java.util.Scanner;
 
-public class TestQuestion3 {
+public class SumOfEven {
 
 	public static void main(String[] args) {
 		int n=0; 

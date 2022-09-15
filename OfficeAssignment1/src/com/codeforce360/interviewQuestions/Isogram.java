@@ -15,7 +15,7 @@ public class Isogram {
 		str = str.toLowerCase();
 		char c[] = str.toCharArray();
 		for (int i = 0; i < c.length; i++) {
-			for (int j = i + 1; j < c.length; j++) {
+			for (int j = (i + 1); j < c.length; j++) {
 				if (c[i] == c[j]) {
 					return false;
 				}

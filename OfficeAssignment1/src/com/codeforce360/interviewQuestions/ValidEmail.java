@@ -1,7 +1,7 @@
 package com.codeforce360.interviewQuestions;
 
 /*
-Create a function that accepts a string, checks if it's a valid email address and returns either true or false, depending on the evaluation. 
+	Create a function that accepts a string, checks if it's a valid email address and returns either true or false, depending on the evaluation. 
 
 ●	The string must contain an @ character. 
 ●	The string must contain a . character.

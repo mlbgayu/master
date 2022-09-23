@@ -1,4 +1,4 @@
-package com.codeforce360abstract1;
+package com.codeforce360.abstract1;
 
 public class ClassB extends ClassA {
 

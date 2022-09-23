@@ -1,4 +1,4 @@
-package com.codeforce360;
+package com.codeforce360.myenums;
 enum names{gayathri,bhavya,vyas}
 public class EnumProgram {
 

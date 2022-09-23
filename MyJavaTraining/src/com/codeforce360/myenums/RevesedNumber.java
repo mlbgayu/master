@@ -1,4 +1,4 @@
-package com.codeforce360;
+package com.codeforce360.myenums;
 
 public class RevesedNumber {
 

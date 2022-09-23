@@ -1,4 +1,4 @@
-package com.codeforce360abstract;
+package com.codeforce360.abstract2;
 
 public class SubClass2 extends subClass{
 

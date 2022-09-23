@@ -1,4 +1,4 @@
-package com.codeforce360accessModifier;
+package com.codeforce360.accessmodifier;
 
 public class StaticExample {
 	static int i;

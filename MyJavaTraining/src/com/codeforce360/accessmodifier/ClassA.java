@@ -1,4 +1,4 @@
-package com.codeforce360accessModifier;
+package com.codeforce360.accessmodifier;
 
 public class ClassA extends Object {
 	static int i;

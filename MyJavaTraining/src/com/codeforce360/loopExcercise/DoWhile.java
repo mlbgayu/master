@@ -8,6 +8,7 @@ public class DoWhile {
 		int i=1;
 		int n;
 		Scanner scanner = new Scanner(System.in);
+		
 		System.out.println("How Many Dollars Do You Want");
 		 n= scanner.nextInt();
 			

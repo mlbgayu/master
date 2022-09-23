@@ -1,6 +1,6 @@
 package com.codeforce360.loopExcercise;
 
-import java.util.Scanner;
+
 
 public class Loop1 {
 	

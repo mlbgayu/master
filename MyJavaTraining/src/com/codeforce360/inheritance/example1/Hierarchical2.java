@@ -9,14 +9,10 @@ public class Hierarchical2 {
 	 }
 
 	public static void main(String[] govindan) {
-		ClassA a;
-		ClassB b;
 		ClassC c=new ClassC();
         cars(c);
         
-        ClassC qqq =  new ClassC();
-        int str = 0;
-        String i = new String("Govindan");
+        
 	}
 
 }

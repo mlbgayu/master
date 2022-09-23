@@ -26,8 +26,7 @@ public class ClassA extends Object {
 		ClassA obj1 = new ClassA();
 		ClassA.i = 10;
 		obj1.j = 10;
-		ClassA obj3 = new ClassA(10);
-		ClassA obj2 = new ClassA();
+			ClassA obj2 = new ClassA();
 		ClassA.i = 20;
 		obj2.j = 20;
 

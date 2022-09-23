@@ -6,7 +6,6 @@ public class Dogs {
 		}
 	
 	public static void main(String[] args) {
-			Bablu b=new Bablu();
 			Puppy p=new Puppy();
 			Dogs d=new Dogs();
 			d.pet(p);

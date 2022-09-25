@@ -1,4 +1,4 @@
-package com.codeforce360.interviewQuestions;
+package com.gayu.problems;
 
 /*
 Write a function that reverses a string. Make your function recursive.

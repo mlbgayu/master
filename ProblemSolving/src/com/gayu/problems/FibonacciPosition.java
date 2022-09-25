@@ -1,4 +1,4 @@
-package com.codeforce360.interviewQuestions;
+package com.gayu.problems;
 
 /*
 Create a function that, given a number, returns the corresponding value

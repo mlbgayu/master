@@ -1,4 +1,4 @@
-package com.codeforce360.interviewQuestions;
+package com.gayu.problems;
 
 /*
 	Write a function that finds the sum of an array. Make your function recursive.

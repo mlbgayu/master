@@ -1,4 +1,4 @@
-package com.codeforce360.interviewQuestions;
+package com.gayu.problems;
 
 /*
 5.	Create a function that takes a string's characters 

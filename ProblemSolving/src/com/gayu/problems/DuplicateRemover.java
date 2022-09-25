@@ -1,4 +1,4 @@
-package com.codeforce360.interviewQuestions;
+package com.gayu.problems;
 
 /**
  * Create a method that takes an array of strings or integers, removes all

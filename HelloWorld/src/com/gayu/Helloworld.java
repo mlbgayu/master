@@ -1,5 +1,5 @@
 package com.gayu;
-public class helloworld
+public class Helloworld
 {
 public static void main(String args[])
 {

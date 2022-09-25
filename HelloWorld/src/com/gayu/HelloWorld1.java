@@ -1,8 +1,8 @@
 package com.gayu;
 
-public class Bhavya {
+public class HelloWorld1 {
 
-	public Bhavya() {
+	public HelloWorld1() {
 		// TODO Auto-generated constructor stub
 		System.out.println("Hello World Gayathri!. ");
 		System.out.println("I called from Constructor");
@@ -10,7 +10,7 @@ public class Bhavya {
 
 	
 	public static void main (String args[]) {
-		Bhavya a = new Bhavya();
+		HelloWorld1 a = new HelloWorld1();
 		System.out.println("I called from Main method");
 		
 	}

@@ -1,6 +1,6 @@
 /*
  * 
-4. Create two functions that take a string and an array and returns a coded or 
+ Create two functions that take a string and an array and returns a coded or 
     decoded message. The first letter of the string, or the first element of the array represents 
     the Character Code of that letter. The next elements are the differences between 
      the characters: e.g. A +3 --> C or z -1 --> y. 

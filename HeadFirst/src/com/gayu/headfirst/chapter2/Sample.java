@@ -1,4 +1,4 @@
-package sample;
+package com.gayu.headfirst.chapter2;
 
 public class Sample {
 

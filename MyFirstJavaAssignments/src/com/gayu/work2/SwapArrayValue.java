@@ -1,4 +1,4 @@
-package com.codeforce360.assignments2;
+package com.gayu.work2;
 
 /*Swap two array values */
 public class SwapArrayValue {

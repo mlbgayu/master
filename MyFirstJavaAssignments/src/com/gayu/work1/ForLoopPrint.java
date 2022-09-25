@@ -1,4 +1,4 @@
-package com.codeforce360.assignments;
+package com.gayu.work1;
 
 public class ForLoopPrint {
 

@@ -1,4 +1,4 @@
-package com.codeforce360.assignments2;
+package com.gayu.work2;
 
 /*Get Array value by passing the array index*/
 public class ArrayValue {

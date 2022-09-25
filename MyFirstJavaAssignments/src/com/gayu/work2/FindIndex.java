@@ -1,4 +1,4 @@
-package com.codeforce360.assignments2;
+package com.gayu.work2;
 
 /*Get Array index by passing the array value*/
 public class FindIndex {

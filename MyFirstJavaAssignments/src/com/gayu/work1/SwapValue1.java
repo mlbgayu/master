@@ -1,4 +1,4 @@
-package com.codeforce360.assignments;
+package com.gayu.work1;
 
 import java.security.DomainCombiner;
 

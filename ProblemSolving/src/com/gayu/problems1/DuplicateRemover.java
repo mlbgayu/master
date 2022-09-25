@@ -1,4 +1,4 @@
-package com.gayu.problems;
+package com.gayu.problems1;
 
 /**
  * Create a method that takes an array of strings or integers, removes all

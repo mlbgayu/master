@@ -1,4 +1,4 @@
-package com.gayu.problems;
+package com.gayu.problems1;
 
 /*
 	Write a function that finds the sum of an array. Make your function recursive.

@@ -1,4 +1,4 @@
-package com.gayu.problems;
+package com.gayu.problems1;
 
 /*
 Create a function that takes an integer and outputs an n x n square solely consisting of the integer n.

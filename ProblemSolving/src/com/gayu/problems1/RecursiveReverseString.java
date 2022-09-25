@@ -1,4 +1,4 @@
-package com.gayu.problems;
+package com.gayu.problems1;
 
 /*
 Write a function that reverses a string. Make your function recursive.

@@ -1,4 +1,4 @@
-package com.gayu.problems;
+package com.gayu.problems1;
 
 /*
 Create a function that, given a number, returns the corresponding value

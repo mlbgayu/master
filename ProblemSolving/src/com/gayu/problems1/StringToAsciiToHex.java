@@ -1,4 +1,4 @@
-package com.gayu.problems;
+package com.gayu.problems1;
 
 /*
 5.	Create a function that takes a string's characters 

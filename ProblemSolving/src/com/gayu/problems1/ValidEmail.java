@@ -1,4 +1,4 @@
-package com.gayu.problems;
+package com.gayu.problems1;
 
 /*
 	Create a function that accepts a string, checks if it's a valid email address and returns either true or false, depending on the evaluation. 

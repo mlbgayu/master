@@ -19,6 +19,6 @@ public class LocalVariable {
 		
 		LocalVariable var1= new LocalVariable(10);
 		var1.i=100;
-		LocalVariable.i=100i
+		LocalVariable.i=100;
 	}
 }

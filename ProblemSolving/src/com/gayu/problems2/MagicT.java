@@ -20,6 +20,7 @@ import java.util.Arrays;
 
 // Apply "0c" (increment index 0 column). // This is the result you should return. [ [1, 0, 1], [2, 1, 2], [2, 1, 2] ]
 
+@author Gayathri
  */
 public class MagicT {
 

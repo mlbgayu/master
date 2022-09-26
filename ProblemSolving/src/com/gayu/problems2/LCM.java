@@ -8,6 +8,9 @@ import java.util.Arrays;
  Examples - 
 lcmOfArray([5, 4, 6, 46, 54, 12, 13, 17]) ➞ 2744820
 lcmOfArray([46, 54, 466, 544]) ➞ 78712992
+
+@author Gayathri
+
 */
 public class LCM {
 	int intArray[];

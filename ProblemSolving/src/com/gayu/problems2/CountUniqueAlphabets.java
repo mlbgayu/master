@@ -13,22 +13,29 @@ public class CountUniqueAlphabets {
 
 	int countUniqueBooks(String str, char s) {
 		char chArray[] = str.toCharArray();
+		System.out.println(Arrays.toString(chArray));
 		boolean status = false;
+		HashSet<Character> mainSet = new HashSet<Character>();
 		HashSet<Character> set = new HashSet<Character>();
 		for (int i = 0; i < chArray.length; i++) {
 			if (chArray[i] == s) {
 				status = !status;
+				if(!status) {
+					mainSet.addAll(set);
+					
+				}
 			}
 			if (status && chArray[i] != s) {
 				set.add(chArray[i]);
 			}
 		}
-		return set.size();
+		System.out.println(mainSet.toString());
+		return mainSet.size();
 	}
 
 	public static void main(String[] args) {
 		CountUniqueAlphabets obj = new CountUniqueAlphabets();
-		int count = obj.countUniqueBooks("AZYWABBCATTTA", 'A');
+		int count = obj.countUniqueBooks("AZYWABBCATTTAOOAGHAAFGQH", 'A');
 		System.out.println(count);
 	}
 }

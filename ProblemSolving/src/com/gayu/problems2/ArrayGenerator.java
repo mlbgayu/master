@@ -16,7 +16,7 @@ inclusiveArray(2, 8) ➞ [2, 3, 4, 5, 6, 7, 8]
 public class ArrayGenerator {
 
 	int[] inclusiveArray(int a, int b) {
-		int gen[] = new int[(b - 1)];
+		int gen[] = new int[(b - a)];
 		for (int i = 0; i < gen.length; i++) {
 			gen[i] = a++;
 		}

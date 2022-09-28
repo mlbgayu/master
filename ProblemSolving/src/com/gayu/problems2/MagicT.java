@@ -22,19 +22,16 @@ import java.util.Arrays;
 
 @author Gayathri
  */
-public class MagicT {
-
-	
+public class MagicT {	
 	void printMagicT(int row, int column, String arr[]) {
 		int zero = 0;
-		int magicT[][] = new int[row][column];
-		
+		int magicT[][] = new int[row][column];		
 		for( int k=0;k<arr.length;k++) {
 			String str = arr[k];
 			int rowColNum = Integer.parseInt(str.substring(0,1));
 			String s = str.substring(1,2);
 			
-			if(s.equals("r")) {
+			if(s.equals("r")) {int intArray[] = { 5, 4, 6, 46, 54, 12, 13, 17 };
 					for(int i=0;i<row;i++) {
 						magicT[rowColNum][i] = magicT[rowColNum][i]+1;
 					}

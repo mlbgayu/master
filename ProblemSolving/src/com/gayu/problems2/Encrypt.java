@@ -18,6 +18,8 @@
 
 package com.gayu.problems2;
 
+import java.util.Arrays;
+
 public class Encrypt {
 
 	int[] encrypt(String str) {
@@ -30,30 +32,34 @@ public class Encrypt {
 		return code;
 	}
 
-	
+	// [72, 29, 7, 0, 3]
 	String decrypt(int charArray[]) {
-		StringBuffer decode = new StringBuffer();
-		int total =0;
-		for(int i=0;i<charArray.length;i++) {
+		String decode = new String();
+		int total = 0;
+		for (int i = 0; i < charArray.length; i++) {
 			total = total + charArray[i];
 			char c = (char) total;
-			decode.append(c);
+			decode = decode + c;
 		}
-		
 		return decode.toString();
 	}
 
 	public static void main(String[] args) {
-		
-		//Encrypt 
+		// H = 72
+		// e = 101
+		// l = 108
+		// l = 108
+		// 0 = 111
+
+		// Encrypt
 		String str = "Hello";
 		Encrypt e = new Encrypt();
 		int decode[] = e.encrypt(str);
-		
-		//Decrypt 
-		int charArray[] = { 72, 33, -73, 84, -12, -3, 13, -13, -68};
+
+		// Decrypt
+		int charArray[] = { 72, 33, -73, 84, -12, -3, 13, -13, -68 };
 		String decodedString = e.decrypt(charArray);
 		System.out.println(decodedString);
-		
+
 	}
 }

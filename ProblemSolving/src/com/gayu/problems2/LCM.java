@@ -29,7 +29,7 @@ public class LCM {
 				if (this.intArray[i] == 0) {
 					return 0;
 				}
-				if (this.intArray[i] == 1) {
+			if (this.intArray[i] == 1) {
 					counter++;
 				}
 				if (this.intArray[i] % divisor == 0) {

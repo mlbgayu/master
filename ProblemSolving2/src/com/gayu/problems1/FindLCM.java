@@ -1,4 +1,4 @@
-package com.gayu.lcmcode;
+package com.gayu.problems1;
 
 import java.util.Arrays;
 

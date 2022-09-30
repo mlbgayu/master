@@ -27,39 +27,38 @@ public class YoutubeParser {
 		try {
 			URL url = new URL(this.youtubeURL);
 			String query = url.getQuery();
-			if ( query!=null) {
+			System.out.println(query);
+			if (query != null) {
 				id = query.split("=")[1];
-			}
-			else {
+			} else {
 				id = url.getFile().substring(1);
 			}
-			
+
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return id;
 	}
-	
-	String parseYoutubeURLwithRegEx() {
-		
-	    
-	    Pattern compiledPattern = Pattern.compile(this.pattern);
-	    Matcher matcher = compiledPattern.matcher(this.youtubeURL);
 
-	    if(matcher.find()){
-	        return matcher.group();
-	    }
-	    return null;
+	String parseYoutubeURLwithRegEx() {
+
+		Pattern compiledPattern = Pattern.compile(this.pattern);
+		Matcher matcher = compiledPattern.matcher(this.youtubeURL);
+
+		if (matcher.find()) {
+			return matcher.group();
+		}
+		return null;
 	}
 
 	public static void main(String[] args) {
 		String youTubeURL = "https://www.youtube.com/watch?v=XPEr1cArWRg";
-		 youTubeURL= "https://www.youtube.com/XPEr1cArWRg";	
+//		youTubeURL = "https://www.youtube.com/XPEr1cArWRg";
 		YoutubeParser obj1 = new YoutubeParser(youTubeURL);
-		String id =  obj1.parseYoutubeURL();
+		String id = obj1.parseYoutubeURL();
 		id = obj1.parseYoutubeURLwithRegEx();
-		System.out.println("ID  of youtube URL  "+youTubeURL+ " is '"+id+"'");
-		
+		System.out.println("ID  of youtube URL  " + youTubeURL + " is '" + id + "'");
+
 	}
 }

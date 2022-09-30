@@ -10,37 +10,32 @@ package com.gayu.problems2;
 longestRun([3, 5, 7, 10, 15]) ➞ 1 // No consecutive runs, so we return 1.
 */
 public class ConsecutiveRun {
-
-	
 	int longestRun(int[] array) {
-		
-		int temp =1 ;
+		int temp = 1;
 		int prev = 0;
-		for ( int i=1;i<array.length;i++) {
-			System.out.println(temp);
-				if(array[i]==(array[i-1]+1)) {
+		for (int i = 1; i < array.length; i++) {
+			if (array[i] == (array[i - 1] + 1)) {
 				temp++;
+			} else {
+				if (temp > prev) {
+					System.out.println(temp);
+					prev = temp;
+					temp = 1;
 				}
-				else {
-					if(temp>prev) {
-						prev = temp;
-						temp = 1;
-					}
-				}
+			}
 		}
-		
-		return temp;
+
+		return prev;
 	}
-	
+
 	public static void main(String[] args) {
-		
-		int array[] = {1, 2, 3, 5, 6, 7, 8, 9};
-//		int array[] = {3, 5, 7, 10, 15};
-		
+
+//	int array[] = {1, 2, 3, 5, 6, 7, 8, 9};
+//	int array[] = {3, 5, 7, 10, 15};
+		int array[] = { 1, 2, 3, 4, 5, 7, 8, 9 };
 		ConsecutiveRun obj = new ConsecutiveRun();
 		int total = obj.longestRun(array);
-		System.out.println("The total is "+total);
-		
-		
+		System.out.println("The total is " + total);
+
 	}
 }

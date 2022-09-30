@@ -16,8 +16,8 @@ public class DecimalConversion {
 		if (no == 1) {
 			return no;
 		}
-		for (int i = 0; i < no - 1; i++) {
-			total = total * 10;
+		for (int i = 0; i < (no - 1); i++) {
+	 		total = total * 10;
 		}
 		return total;
 	}
@@ -54,6 +54,7 @@ public class DecimalConversion {
 	}
 
 	public static void main(String[] args) {
+		
 		float f = 25.24f;
 //		f = 70701.05f;
 //		f = 685.27f;

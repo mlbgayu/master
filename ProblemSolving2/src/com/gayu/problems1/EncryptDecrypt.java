@@ -1,4 +1,4 @@
-package com.gayu.encryptdecrypt;
+package com.gayu.problems1;
 
 public class EncryptDecrypt {
 

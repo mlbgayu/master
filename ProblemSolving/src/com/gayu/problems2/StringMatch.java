@@ -35,7 +35,7 @@ public class StringMatch {
 
 	public static void main(String[] args) {
 //		String words[] = {"toe", "ocelot", "maniac"};
-		String words[] = {"many", "carriage", "emit", "apricot", "animal"};
+		String words[] = { "many", "carriage", "emit", "apricot", "animal" };
 		StringMatch obj = new StringMatch();
 		String matchedWords[] = obj.sameVowelGroup(words);
 		System.out.println(Arrays.toString(matchedWords));

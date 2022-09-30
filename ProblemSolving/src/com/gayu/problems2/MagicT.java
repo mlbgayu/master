@@ -22,40 +22,39 @@ import java.util.Arrays;
 
 @author Gayathri
  */
-public class MagicT {	
+public class MagicT {
 	void printMagicT(int row, int column, String arr[]) {
 		int zero = 0;
-		int magicT[][] = new int[row][column];		
-		for( int k=0;k<arr.length;k++) {
+		int magicT[][] = new int[row][column];
+		for (int k = 0; k < arr.length; k++) {
 			String str = arr[k];
-			int rowColNum = Integer.parseInt(str.substring(0,1));
-			String s = str.substring(1,2);
-			
-			if(s.equals("r")) {int intArray[] = { 5, 4, 6, 46, 54, 12, 13, 17 };
-					for(int i=0;i<row;i++) {
-						magicT[rowColNum][i] = magicT[rowColNum][i]+1;
-					}
-			}
-			else if(s.equals("c")) {
-				for(int i=0;i<row;i++) {
-					for(int j=0;j<column;j++) {
-						if(j==rowColNum) {
-							magicT[i][j] = magicT[i][j]+1;
+			int rowColNum = Integer.parseInt(str.substring(0, 1));
+			String s = str.substring(1, 2);
+
+			if (s.equals("r")) {
+				int intArray[] = { 5, 4, 6, 46, 54, 12, 13, 17 };
+				for (int i = 0; i < row; i++) {
+					magicT[rowColNum][i] = magicT[rowColNum][i] + 1;
+				}
+			} else if (s.equals("c")) {
+				for (int i = 0; i < row; i++) {
+					for (int j = 0; j < column; j++) {
+						if (j == rowColNum) {
+							magicT[i][j] = magicT[i][j] + 1;
 						}
-						
+
 					}
 				}
 			}
-			
+
 		}
-		
+
 		System.out.println(Arrays.deepToString(magicT));
-		
+
 	}
-	
-	
+
 	public static void main(String[] args) {
-		String arr[] = {"2r", "2c", "1r", "0c"};
+		String arr[] = { "2r", "2c", "1r", "0c" };
 		MagicT obj = new MagicT();
 		obj.printMagicT(3, 3, arr);
 	}

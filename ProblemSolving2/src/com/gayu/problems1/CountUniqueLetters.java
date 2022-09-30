@@ -1,4 +1,4 @@
-package com.gayu.uniquealphabets;
+package com.gayu.problems1;
 
 import java.util.HashSet;
 

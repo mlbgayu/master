@@ -1,4 +1,4 @@
-package com.gayu.arraygenerator;
+package com.gayu.problems1;
 
 import java.util.Arrays;
 

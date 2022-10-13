@@ -6,7 +6,7 @@ Create a function that, given a number, returns the corresponding value
  */
 public class FibonacciPosition {
 
-	static int findFib(int index) {
+	public static int findFib(int index) {
 		if (index <= 1) {
 			return index;
 		}

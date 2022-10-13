@@ -5,7 +5,7 @@ package com.gayu.problems1;
  */
 public class SumOfArray {
 
-	static int sumArray(int sum, int array[], int index) {
+	public static int sumArray(int sum, int array[], int index) {
 
 		if (index == array.length) {
 			return sum;

@@ -12,7 +12,7 @@ package com.gayu.problems1;
  */
 public class DuplicateRemover {
 
-	private static String[] removeDups(String[] origArray) {
+	public static String[] removeDups(String[] origArray) {
 		int duplicateSize = 0;
 		for (int i = 0; i < origArray.length - 1; i++) {
 			for (int j = (i + 1); j < origArray.length - 1; j++) {
@@ -36,15 +36,18 @@ public class DuplicateRemover {
 	}
 
 	public static void main(String[] args) {
-		String arr[] = { "10", "20", "20", "30", "30", "40", "50", "50", "10", "50" };
+		//String arr[] = { "10", "20", "20", "30", "30", "40", "50", "50", "10", "50" };
+		String arr[]= {"1", "0", "1","0"};
+//		String arr[]= {"John", "Taylor", "John"};
+
 		int length = arr.length;
 		String newArray[] = removeDups(arr);
 		for (int i = 0; i < newArray.length; i++) {
 			System.out.print(newArray[i] + " ");
 		}
-		
-		
-		
+	
 	}
+
+	
 
 }

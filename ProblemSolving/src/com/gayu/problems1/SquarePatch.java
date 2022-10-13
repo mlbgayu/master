@@ -18,7 +18,7 @@ squarePatch(5) ➞ [[5, 5, 5, 5, 5],
  */
 public class SquarePatch {
 
-	static void square(int n) {
+	public static void square(int n) {
 		System.out.println("[");
 		for (int i = 0; i < n; i++) {
 			System.out.print("[");
@@ -34,13 +34,13 @@ public class SquarePatch {
 			if (i != (n - 1)) {
 				System.out.print(",");
 
-			}
+			}       
 			System.out.println();
 		}
 		System.out.println("]");
 	}
 
 	public static void main(String[] args) {
-		square(10);
+		square(3);
 	}
 }

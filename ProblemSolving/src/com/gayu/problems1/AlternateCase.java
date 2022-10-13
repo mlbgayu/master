@@ -12,7 +12,7 @@ alternatingCaps("OMG this website is awesome!") ➞ "OmG tHiS wEbSiTe Is AwEsOmE
 
 public class AlternateCase {
 
-	static String alternatingCaps(String str) {
+	public static String alternatingCaps(String str) {
 		String returnstring = "";
 		char ch[] = str.toCharArray();
 		for (int i = 0; i < ch.length; i++) {

@@ -37,7 +37,7 @@ public class ValidEmail {
 		String email5 = "hello@edabit.";
 		String email6 = "asas.hello@edabit";
 
-		boolean isValidEmail = validEmail(email6);
+		boolean isValidEmail = validEmail(email1);
 		System.out.println(isValidEmail);
 
 	}

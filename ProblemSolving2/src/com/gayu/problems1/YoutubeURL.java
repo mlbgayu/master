@@ -34,8 +34,8 @@ public class YoutubeURL {
 	}
 
 	public static void main(String[] args) {
-		// String youtubeParse= "https://www.youtube.com/watch?v=ZqFq__vsVEc&t=258s";
-		String youtubeParse = "https://www.youtube.com/XPEr1cArWRg";
+		 String youtubeParse= "https://www.youtube.com/watch?v=ZqFq__vsVEc&t=258s";
+	//	String youtubeParse = "https://www.youtube.com/XPEr1cArWRg";
 		YoutubeURL url = new YoutubeURL(youtubeParse);
 		String id = url.youtubeParse();
 		System.out.println(id);
